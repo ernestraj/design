@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function sdg_theme_preprocess(&$variables, $hook){
+    $variables['base_path'] = base_path();
+}
+
+/**
+ * 
+ */
+function sdg_theme_preprocess_page(&$variables) {
+  $block = \Drupal\block\Entity\Block::load('sdg_theme_homepagebannerleftside');
+  $block_content = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($block);
+ $variables['homepagebannerleft'] = $block_content;
+}

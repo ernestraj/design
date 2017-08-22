@@ -1,0 +1,23 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/style-home.css: {}
+      css/animate.css: {}
+      css/style-menu.css: {}
+  js:
+    js/custom.js: {}
+    
+fonts:
+    css:
+        theme:
+            fonts/raleway-webfont/raleway-webfont.css: {}
+            fonts/roboto-webfont/roboto.css: {}
+            fonts/roboto-webfont/roboto.css.map: {}
+#home-styling:
+#    css:
+#        theme:
+#            css/style-home.css: {}
+#            css/animate.css: {}
+#            css/style-menu.css: {}
+            

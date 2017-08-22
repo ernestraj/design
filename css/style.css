@@ -1,0 +1,176 @@
+/* ============================ Custom Design UI ============================ */
+
+header, footer, article, section, nav, menu { 
+   display: block;
+}
+html{ width:100%; display:block; overflow-x:hidden; position: relative;}
+body { font-weight: 400;}
+p{ display:block; clear:both;}
+
+
+/* Header Region ============================ */
+.region-header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%; }
+  .region-header .container-logo {
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    background-image: url(../images/logo-sdgc-inverse.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    margin: 22px 20px;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    font-size: 26px; }
+    .region-header .container-logo a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-indent: -9999px;
+      outline: none; }
+
+
+/* Main Region ============================== */
+.section-1 {
+  color: white;
+}
+.container-fnb {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  z-index: 5; }
+  .container-fnb a {
+    background: none;
+    border: none; }
+    .container-fnb a:after {
+      content: "\u232a";
+      width: 64px;
+      height: 64px;
+      font-size: 32px; }
+
+.content-block .content-block-heading {
+  padding: 10px 15px; }
+  .content-block .content-block-heading .content-block-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: -1px; }
+
+.content-block .content-block-body {
+  padding: 15px; }
+
+.content-area{
+    text-align: center;
+}
+.content-title{
+    font-weight: 600;
+    color: #7e7e7e;
+    margin: 0;
+}
+.content-sub-title{
+	font-weight: 400;
+    color: #7e7e7e;
+}
+.content-small-area{
+    padding: 80px 0;
+    text-align: center;
+    color: #7e7e7e;
+}
+.site-icon-area{
+    width: 90px;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+}
+.content-keyword-text{
+    margin: 0;
+}
+.content-pera-text{
+    padding: 40px 0;
+    margin: 0;
+}
+.site-icon-area img{
+    width: 90px;
+}
+.gray-link{
+    text-align: center;
+}
+.gray-link a .glyphicon-chevron-down{
+    font-size: 24px;
+}
+.gray-link a{
+    font-size: 18px;
+    color: #7e7e7e;
+    font-weight: 700;
+    text-align: center;
+}
+.gray-link a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* Footer Region ============================ */
+.region-footer .container {
+  background: -webkit-gradient(linear, right top, left top, from(#66b9bc), color-stop(3%, #66b9ba), color-stop(42%, #65baa0), color-stop(44%, #65ba9d), to(#63bc58));
+  background: linear-gradient(to left, #66b9bc 0%, #66b9ba 3%, #65baa0 42%, #65ba9d 44%, #63bc58 100%); }
+  .region-footer .container > .row {
+    padding: 75px 30px; }
+  .region-footer .sdg-logo-f {
+    padding-bottom: 50px; }
+  .region-footer .footer-links {
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .region-footer .footer-links li {
+      display: block;
+      padding: 10px 0; }
+      .region-footer .footer-links li a {
+        color: #fff; }
+  .region-footer .subscribe-area {
+    padding-top: 100px; }
+    .region-footer .subscribe-area h5 {
+      display: block;
+      font-size: 30px;
+      font-weight: 400;
+      text-align: center;
+      color: #fff; }
+    .region-footer .subscribe-area .black-btn {
+      background: #454545;
+      border: 1px solid #454545;
+      line-height: 46px;
+      color: #fff;
+      font-size: 24px;
+      width: 220px;
+      margin: 25px auto;
+      display: block; }
+    .region-footer .subscribe-area input {
+      border: 1px solid #f0f0f0;
+      background: #f0f0f0;
+      line-height: 28px;
+      color: #979797;
+      font-size: 24px;
+      display: block;
+      width: 90%;
+      margin: auto;
+      padding: 10px; }
+  .region-footer .social-media-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 170px; }
+    .region-footer .social-media-icons li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 2px;
+      float: left; }
+      .region-footer .social-media-icons li img {
+        width: 48px; }
+
+

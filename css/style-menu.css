@@ -1,0 +1,212 @@
+.site-navigation {
+  margin-right: 20px;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+  color: #fff;
+  font-weight: 100; }
+  .site-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .site-navigation li {
+    float: left;
+    margin-left: 2rem; }
+  .site-navigation .btn-default {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 10px;
+    margin: 16px 0; }
+
+.menu-region .main-menu {
+  width: 300px;
+  /* fallback for older browsers */
+  width: 30vw;
+  height: 500px;
+  /* fallback for older browsers */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgba(52, 168, 21, 0.85);
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: -90%;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  color: rgba(255, 255, 255, 0.85);
+  -webkit-box-shadow: -5px -2px 15px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: -5px -2px 15px 3px rgba(0, 0, 0, 0.1); }
+  .menu-region .main-menu .menu-header {
+    width: 100%;
+    height: 12vh;
+    float: left;
+    background: rgba(64, 225, 22, 0.5); }
+    .menu-region .main-menu .menu-header .btn-default {
+      background: none;
+      border: 2px solid #fff;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      color: #fff;
+      padding: 0px;
+      margin: 15px 0;
+      width: 48px;
+      height: 48px;
+      opacity: 0.5; }
+      .menu-region .main-menu .menu-header .btn-default:hover {
+        opacity: 0.75; }
+    .menu-region .main-menu .menu-header .icon {
+      width: 100%;
+      height: 100%;
+      float: left;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .menu-region .main-menu .menu-header .icon-close:before {
+      content: '\002b';
+      color: #fff;
+      font-size: 8rem;
+      font-weight: 100;
+      line-height: 4.5rem;
+      width: 48px;
+      height: 48px;
+      padding: 0;
+      margin: 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .menu-region .main-menu .menu-body {
+    width: 100%;
+    height: 73vh;
+    float: left;
+    overflow: auto;
+    background: rgba(64, 225, 22, 0.65); }
+    .menu-region .main-menu .menu-body ul,
+    .menu-region .main-menu .menu-body ul.nav {
+      list-style: none;
+      margin: 0 0 1.5rem 3rem;
+      padding: 0; }
+      .menu-region .main-menu .menu-body ul li,
+      .menu-region .main-menu .menu-body ul.nav li {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 4rem;
+        vertical-align: middle; }
+        .menu-region .main-menu .menu-body ul li a,
+        .menu-region .main-menu .menu-body ul.nav li a {
+          color: white;
+          opacity: 0.85;
+          padding: 3px 0;
+          margin: 3px 0;
+          display: block; }
+          .menu-region .main-menu .menu-body ul li a:focus, .menu-region .main-menu .menu-body ul li a:hover,
+          .menu-region .main-menu .menu-body ul.nav li a:focus,
+          .menu-region .main-menu .menu-body ul.nav li a:hover {
+            opacity: 1;
+            text-decoration: none;
+            background: none; }
+          .menu-region .main-menu .menu-body ul li a .icon,
+          .menu-region .main-menu .menu-body ul.nav li a .icon {
+            width: 32px;
+            height: 32px;
+            float: left;
+            font-size: 4rem; }
+            .menu-region .main-menu .menu-body ul li a .icon:before,
+            .menu-region .main-menu .menu-body ul.nav li a .icon:before {
+              content: '\002b';
+              padding: 0;
+              margin: 0;
+              line-height: 4rem;
+              vertical-align: top; }
+        .menu-region .main-menu .menu-body ul li ul,
+        .menu-region .main-menu .menu-body ul.nav li ul {
+          display: none; }
+        .menu-region .main-menu .menu-body ul li li,
+        .menu-region .main-menu .menu-body ul.nav li li {
+          font-size: 2rem;
+          line-height: 3rem; }
+          .menu-region .main-menu .menu-body ul li li .icon:before,
+          .menu-region .main-menu .menu-body ul.nav li li .icon:before {
+            content: '\002d';
+            line-height: 2.5rem; }
+  .menu-region .main-menu .menu-footer {
+    position: absolute;
+    background: rgba(43, 132, 19, 0.5);
+    width: 100%;
+    height: 15vh;
+    float: left;
+    bottom: 0;
+    left: 0;
+    background: rgba(64, 225, 22, 0.5);
+    -webkit-box-shadow: 0px -1px 1px rgba(43, 132, 19, 0.85);
+    box-shadow: 0px -1px 1px rgba(43, 132, 19, 0.85);
+    border-top: 1px solid rgba(136, 216, 115, 0.5); }
+    .menu-region .main-menu .menu-footer ul {
+      list-style: none;
+      margin: 2rem 5rem;
+      padding: 0; }
+    .menu-region .main-menu .menu-footer li {
+      font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 3rem;
+      vertical-align: middle; }
+      .menu-region .main-menu .menu-footer li a {
+        color: white;
+        opacity: 0.85; }
+
+.menu-region .main-menu.visible {
+  right: 0%;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease; }
+
+.sticky-header {
+  background: rgba(225, 225, 225, 0.95);
+  border-bottom: 2px solid rgba(200, 200, 200, 0.5);
+  -webkit-box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5); }
+  .sticky-header .container-logo {
+    background-image: url(../images/logo-sdgc.svg);
+    margin: 22px 0;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out; }
+  .sticky-header .site-navigation {
+    margin-right: 0;
+    color: #333;
+    opacity: 0.5;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out; }
+  .sticky-header .btn-default {
+    border: 2px solid #333;
+    color: #333;
+    opacity: 0.5; }
+    .sticky-header .btn-default:hover {
+      opacity: 0.75; }
+
+.mask-overlay {
+  width: 100%;
+  /* fallback for older browsers */
+  width: 100vw;
+  height: 100%;
+  /* fallback for older browsers */
+  height: 100vh;
+  background: black;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: -110%;
+  z-index: 500;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out; }
+
+.mask-overlay.visible {
+  right: 0;
+  opacity: 0.5;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out; }
+
+.main-menu-visible {
+  overflow: hidden; }
